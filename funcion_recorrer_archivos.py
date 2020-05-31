@@ -4,6 +4,11 @@
 """
 import os
 def recorre_archivos(directorio_actual):
+    """
+    Funcion que recorre todos los directorios y subdirectorios dentro del 
+    path actual en busqueda de archivos en esas carpetas y subcarpetas.
+
+    """
     #imprime tanto los archivos como los directorios en el primer nivel del directorio actual
     lista_directorios = os.listdir(directorio_actual)
     #lista directorios guarda todos los archivos y 
